@@ -1,0 +1,84 @@
+body{background-color: #D3D3D3;
+color: #00008B;
+font-size: 20px;
+font-family: verdana;}
+
+.contact {text-align:center;
+color:black;}
+
+.aboutme{text-align:center;
+padding:10px;
+margin:0 100px 0 100px;}
+
+.container-parent{display:flex;
+align-content:space-around;
+flex-wrap: wrap;
+}
+
+.growing {display:flex;
+border:5px solid black;
+  border-radius: 10px;
+margin-left: 50px;
+padding: 10px;
+flex-wrap:wrap;
+height:250px;
+align-content:center;
+background-color: #B0C4DE;
+color: black;}
+
+.confident{display:flex;
+border: 5px solid black;
+  border-radius: 10px;
+  padding:10px;
+  flex-wrap:wrap;
+height:250px;
+align-content:center;
+  margin-left:18%;
+  background-color: #B0C4DE;
+  color: black;
+}
+
+.testprojects {text-align:center;}
+
+.projects {margin-left:5%;
+  font-family: sans-serif;
+  color: black;
+  font-style:bold;
+  display: flex;
+  flex-wrap:space-around;
+  justify-content: space-around;
+}
+
+td {border: solid black 5px;
+  border-radius: 5px;
+height:200px;
+background-color:#B0C4DE;
+color:black;}
+
+.btn{background: #717575;
+  background-image: -webkit-linear-gradient(top, #717575, #0d567a);
+  background-image: -moz-linear-gradient(top, #717575, #0d567a);
+  background-image: -ms-linear-gradient(top, #717575, #0d567a);
+  background-image: -o-linear-gradient(top, #717575, #0d567a);
+  background-image: linear-gradient(to bottom, #717575, #0d567a);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: sans-serif;
+  color: white;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.future {align-content:center;
+margin-left: 30%;
+margin-top: 40px;
+}
+
+.about {background-color: #00ffff;}
+
+
+footer{text-align:center;}
